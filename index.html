@@ -24,14 +24,22 @@
     margin: 0 0 10px 0;
   }
 
-  a {
-    color: inherit;
-    text-decoration: underline;
-    text-underline-offset: 2px;
-  }
+ a {
+  color: #2d5ea8;
+  text-decoration: none;
+  transition: color 0.15s ease;
+}
+
+a:hover {
+  color: #6e7c6c;
+}
+
+a:visited {
+  color: #2d5ea8;
+}
 
   .intro {
-    margin-bottom: 52px;
+    margin-bottom: 90px;
   }
 
   .entry {
@@ -82,10 +90,18 @@
 }
 
 .creature {
-  width: 180px;
+  width: 140px;
   height: auto;
   margin: 0;
   flex-shrink: 0;
+}
+
+.art {
+  width: 100%;
+  max-width: 460px;
+  height: auto;
+  display: block;
+  margin: 18px 0 24px 0;
 }
 </style>
 </head>
@@ -99,7 +115,7 @@ Like childhood dreamscapes that exist in tandem with the morning bowl of breakfa
 <div class="links-creature">
   <div class="links">
     <p><a href="mailto:wrenverga1@gmail.com">email</a></p>
-    <p><a href="https://soundcloud.com/wrenverga">music</a></p>
+    <p><a href="https://soundcloud.com/wrenverga">♫</a></p>
     <p><a href="https://www.instagram.com/__here4you_/">here4you</a></p>
   </div>
 
@@ -111,12 +127,9 @@ Like childhood dreamscapes that exist in tandem with the morning bowl of breakfa
    
 
     <section class="entry">
-      <p class="date">2026(if you wanna separate pieces by year or blocks of years)</p>
-      <p class="title">title</p>
-      <p>
-        desc (optional)
-      </p>
-      <img src="https://via.placeholder.com/800x520" alt="pic" />
+      <p class="date">2026</p>
+      <p class="title">untitled</p>
+   <img class="art" src="images/art1.png" alt="art">
 		
 		    <blockquote>
         "My deepest impulses are optimistic, an attitude that seems to me as spiritually necessary and proper as it is intellectually suspect." Ellen Willis
